@@ -16,22 +16,19 @@ extern "C"
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'current_control'
-// Member 'current_speed'
-// Member 'current_speed_filtered'
-// Member 'current_error'
-// Member 'setpoint'
-#include "kalman_interfaces/msg/detail/motors__struct.h"
-
 /// Struct defined in msg/ControlStatus in the package kalman_interfaces.
 typedef struct kalman_interfaces__msg__ControlStatus
 {
-  kalman_interfaces__msg__Motors current_control;
-  kalman_interfaces__msg__Motors current_speed;
-  kalman_interfaces__msg__Motors current_speed_filtered;
-  kalman_interfaces__msg__Motors current_error;
-  kalman_interfaces__msg__Motors setpoint;
+  float r_current_control;
+  float r_current_speed;
+  float r_current_speed_filtered;
+  float r_current_error;
+  float r_setpoint;
+  float l_current_control;
+  float l_current_speed;
+  float l_current_speed_filtered;
+  float l_current_error;
+  float l_setpoint;
 } kalman_interfaces__msg__ControlStatus;
 
 // Struct for a sequence of kalman_interfaces__msg__ControlStatus.
