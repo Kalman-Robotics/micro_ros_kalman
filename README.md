@@ -112,4 +112,4 @@ v2.0.7-iron.1
 
 ## For Kalman
 
-docker run -it --rm -v ./micro_ros_kalman:/project --env MICROROS_LIBRARY_FOLDER=extras microros/micro_ros_static_library_builder:iron -p esp32s3
+docker run -it --rm -v ./:/project --env MICROROS_LIBRARY_FOLDER=extras microros/micro_ros_static_library_builder:iron -p esp32s3
