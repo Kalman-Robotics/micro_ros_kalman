@@ -99,6 +99,7 @@ geometry_msgs/Wrench.msg
 geometry_msgs/WrenchStamped.msg
 kalman_interfaces/ConfigParams.msg
 kalman_interfaces/ControlStatus.msg
+kalman_interfaces/ImuData.msg
 kalman_interfaces/JointPosVel.msg
 kalman_interfaces/KaiaaiTelemetry.msg
 kalman_interfaces/KaiaaiTelemetry2.msg
