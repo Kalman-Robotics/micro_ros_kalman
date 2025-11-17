@@ -27,6 +27,8 @@ extern "C"
 // Member 'touch'
 // Member 'lds'
 #include "rosidl_runtime_c/primitives_sequence.h"
+// Member 'status'
+#include "kalman_interfaces/msg/detail/control_status__struct.h"
 
 // constants for array fields with an upper bound
 // joint
@@ -78,6 +80,7 @@ typedef struct kalman_interfaces__msg__KaiaaiTelemetry2
   rosidl_runtime_c__boolean__Sequence cliff;
   rosidl_runtime_c__uint16__Sequence touch;
   bool scan_start_hint;
+  kalman_interfaces__msg__ControlStatus status;
   rosidl_runtime_c__uint8__Sequence lds;
 } kalman_interfaces__msg__KaiaaiTelemetry2;
 
