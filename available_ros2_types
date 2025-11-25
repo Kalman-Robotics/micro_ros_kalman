@@ -103,6 +103,7 @@ kalman_interfaces/ImuData.msg
 kalman_interfaces/JointPosVel.msg
 kalman_interfaces/KaiaaiTelemetry.msg
 kalman_interfaces/KaiaaiTelemetry2.msg
+kalman_interfaces/Led.msg
 kalman_interfaces/Motors.msg
 kalman_interfaces/OnlineEvent.msg
 kalman_interfaces/WifiState.msg
