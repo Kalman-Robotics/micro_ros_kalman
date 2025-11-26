@@ -16,7 +16,7 @@ Para añadir nuevos tipos de mensajes Micro-ROS. Sigue estos pasos:
 ```
 cd <carpeta_firmware>/lib/micro_ros_kalman
 
-docker run -it --rm -v .\micro_ros_kaia:/project --env MICROROS_LIBRARY_FOLDER=extras microros/micro_ros_static_library_builder:iron -p esp32
+docker run -it --rm -v ./:/project --env MICROROS_LIBRARY_FOLDER=extras microros/micro_ros_static_library_builder:iron -p esp32
 ```
 
 ## Reconocimientos y modificaciones

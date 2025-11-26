@@ -97,6 +97,7 @@ geometry_msgs/Vector3Stamped.msg
 geometry_msgs/VelocityStamped.msg
 geometry_msgs/Wrench.msg
 geometry_msgs/WrenchStamped.msg
+kalman_interfaces/Buzzer.msg
 kalman_interfaces/ConfigParams.msg
 kalman_interfaces/ControlStatus.msg
 kalman_interfaces/ImuData.msg
